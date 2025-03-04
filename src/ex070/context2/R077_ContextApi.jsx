@@ -9,6 +9,7 @@ class R077_ContextApi extends React.Component {
     super(props);
     this.setStateFunc = this.setStateFunc.bind(this)
     }
+    
     setStateFunc(value) {
         this.setState({name : value});
     }
